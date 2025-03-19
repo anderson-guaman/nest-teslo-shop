@@ -14,7 +14,12 @@ npm i
 ```
 docker-compose up -d
 ```
-6. Levantar el proyecto en modo desarrollo dev:
+
+6. Ejecutar SEED para llenar una data para desarrollo
+```
+http://localhost:3000/api/seed
+```
+7. Levantar el proyecto en modo desarrollo dev:
 ```
 npm run start:dev
 ```
